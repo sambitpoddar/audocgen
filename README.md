@@ -1,3 +1,4 @@
+[![Python package](https://github.com/sambitpoddar/audocgen/actions/workflows/python-package.yml/badge.svg?branch=main)](https://github.com/sambitpoddar/audocgen/actions/workflows/python-package.yml)
 <center><img src="assets/audocgenlogo.png" alt="AuDocGen Logo" width="300"/></center>
 
 # AuDocGen
