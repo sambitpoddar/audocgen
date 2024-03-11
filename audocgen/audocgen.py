@@ -41,26 +41,106 @@ class AuDocGen:
         self.include_functions = include_functions
         self.include_classes = include_classes
         self.documentation = {}
+    
 
-    def generate_docs(self, output_format: str = "html"):
+    def generate_docs(self, output_path="docs_output", output_format="html"):
         """
         Generates documentation based on the specified parameters.
 
         Args:
-            output_format (str): The format of the generated documentation. Supported formats are 'html' and 'markdown'. Default is 'html'.
+            output_path (str): The path to the directory where the generated documentation will be saved. Default is 'docs_output'.
+            output_format (str): The format of the generated documentation. Supported formats are 'html' and 'md'. Default is 'html'.
 
         Returns:
             None
         """
         try:
+            # Check if project_path or module_path is provided
             if self.project_path:
                 self._generate_project_docs(output_format)
             elif self.module_path:
                 self._generate_module_docs(output_format)
             else:
                 raise ValueError("Either project_path or module_path must be provided.")
+
+            # Generate documentation content
+            documentation_content = self._generate_documentation_content()
+
+            # Convert documentation content to the specified format
+            if output_format == "html":
+                documentation_content = markdown.markdown(documentation_content)
+            elif output_format == "md":
+                pass  # No conversion needed for Markdown format
+            else:
+                raise ValueError("Invalid output format. Supported formats: 'html', 'md'.")
+
+            # Load custom template if specified
+            if self.template_path:
+                template = self._load_template()
+
+            # Render documentation content using the template
+                rendered_docs = template.render(documentation_content=documentation_content)
+
+            # Save rendered documentation to output directory
+            if not os.path.exists(output_path):
+                os.makedirs(output_path)
+            with open(os.path.join(output_path, f"documentation.{output_format}"), "w") as f:
+                f.write(documentation_content)
+              # f.write(rendered_docs) [Use this only if custom template is used]
         except Exception as e:
             print(f"Error generating documentation: {e}")
+            
+    
+    def _load_template(self):
+        """
+        Loads a custom template from the specified template directory.
+
+        Returns:
+            jinja2.Template: The loaded template.
+        """
+        if not self.template_path:
+            raise ValueError("Template path is not specified.")
+        
+        template_loader = FileSystemLoader(self.template_path)
+        template_env = Environment(loader=template_loader)
+        template = template_env.get_template("custom_template.jinja2")  # Change the template filename if necessary
+        return template
+    
+
+    def _generate_documentation_content(self):
+        """
+        Generates documentation content based on the Python code files in the project directory.
+
+        Returns:
+            str: The generated documentation content.
+        """
+        if not self.project_path:
+            raise ValueError("Project path is not specified.")
+
+        documentation_content = ""
+
+        # Traverse project directory and process Python files
+        for root, dirs, files in os.walk(self.project_path):
+            for file in files:
+                if file.endswith(".py"):
+                    file_path = os.path.join(root, file)
+                    with open(file_path, "r", encoding="utf-8") as f:
+                        module_content = f.read()
+                    module_tree = ast.parse(module_content)
+                    module_docstring = ast.get_docstring(module_tree)
+                    if module_docstring:
+                        # Add module docstring to documentation content
+                        documentation_content += f"## {file}\n\n"
+                        documentation_content += f"{module_docstring}\n\n"
+                    for node in module_tree.body:
+                        if isinstance(node, ast.FunctionDef) and node.lineno > 1:
+                            # Add function docstrings to documentation content
+                            function_docstring = ast.get_docstring(node)
+                            if function_docstring:
+                                documentation_content += f"### {node.name}()\n\n"
+                                documentation_content += f"{function_docstring}\n\n"
+        return documentation_content
+
 
     def _generate_project_docs(self, output_format: str):
         """
@@ -223,6 +303,21 @@ class AuDocGen:
                 raise ValueError("Unsupported output format. Supported formats: 'html', 'markdown'.")
         except Exception as e:
             print(f"Error rendering documentation: {e}")
+            
+    def _get_modules_in_project(self) -> List[str]:
+        """
+        Gets a list of module names in the project directory.
+
+        Returns:
+            List[str]: A list of module names.
+        """
+        modules = []
+        for root, dirs, files in os.walk(self.project_path):
+            for file in files:
+                if file.endswith(".py"):
+                    module_name = os.path.splitext(file)[0]
+                    modules.append(module_name)
+        return modules
 
 if __name__ == "__main__":
     # Usage example
