@@ -78,8 +78,8 @@ For more information on the documentation format and how to choose the appropria
 
 ## Author
 
-Email: [sambitpoddar@yahoo.com](mailto:sambitpoddar@yahoo.com)
-LinkedIn: [Sambit Poddar](https://linkedin.com/in/sambitpoddar)
+- **Email**: [sambitpoddar@yahoo.com](mailto:sambitpoddar@yahoo.com)
+- **LinkedIn**: [Sambit Poddar](https://linkedin.com/in/sambitpoddar)
 
 ## Contributing
 
