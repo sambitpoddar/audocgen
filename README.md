@@ -2,6 +2,12 @@
 [![codecov](https://codecov.io/gh/username/repo/branch/main/graph/badge.svg)](https://codecov.io/gh/username/repo)
 [![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://badge.fury.io/py/your-package-name)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python Versions](https://img.shields.io/pypi/pyversions/your-package-name.svg)](https://pypi.org/project/your-package-name/)
+[![Downloads](https://pepy.tech/badge/your-package-name)](https://pepy.tech/project/your-package-name)
+[![GitHub issues](https://img.shields.io/github/issues/username/repo.svg)](https://github.com/username/repo/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/username/repo.svg)](https://github.com/username/repo/pulls)
+[![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+
 
 <center><img src="https://github.com/sambitpoddar/audocgen/blob/main/assets/audocgenlogo.png" alt="AuDocGen Logo" width="300"/></center>
 
