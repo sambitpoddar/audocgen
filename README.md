@@ -1,3 +1,5 @@
+<center><img src="assets/audocgenlogo.png" alt="AuDocGen Logo" width="300"/></center>
+
 # AuDocGen
 
 AuDocGen is a Python documentation generator designed to simplify the process of creating comprehensive and user-friendly documentation from Python code. It automatically extracts information from docstrings, including API reference documentation and code examples, and renders it into HTML or Markdown format.
