@@ -85,7 +85,7 @@ For more information on the documentation format and how to choose the appropria
 
 Contributions to AuDocGen are welcome! If you find any issues or have suggestions for improvement, please [open an issue](https://github.com/sambitpoddar/audocgen/issues) or submit a pull request on the [GitHub repository](https://github.com/sambitpoddar/audocgen).
 
-For guidelines on contributing to AuDocGen and how to get started, refer to the [contributing guide](CONTRIBUTING.md).
+For guidelines on contributing to AuDocGen and how to get started, refer to the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
