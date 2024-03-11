@@ -7,7 +7,7 @@
 [![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 
 
-<center><img src="https://github.com/sambitpoddar/audocgen/blob/main/assets/audocgenlogo.png" alt="AuDocGen Logo" width="300"/></center>
+<center><img src="https://github.com/sambitpoddar/audocgen/blob/main/assets/audocgenlogo.png" alt="audocgenlogo" width="300"/></center>
 
 # AuDocGen
 
