@@ -132,7 +132,7 @@ autodoc.generate_docs(output_format="html")
 
 ## Contributing
 
-Contributions to AuDocGen are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the [GitHub repository](https://github.com/your_username/audocgen).
+Contributions to AuDocGen are welcome! If you find any issues or have suggestions for improvement, please [open an issue](https://github.com/sambitpoddar/audocgen/issues) or submit a pull request on the [GitHub repository](https://github.com/sambitpoddar/audocgen).
 
 ## License
 
