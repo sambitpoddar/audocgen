@@ -6,6 +6,7 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/your-package-name.svg)](https://pypi.org/project/your-package-name/)
 [![Downloads](https://pepy.tech/badge/your-package-name)](https://pepy.tech/project/your-package-name)
 [![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+<center><img src="logo.png" alt="AuDocGen Logo" width="280"/></center>
 
 # AuDocGen
 
