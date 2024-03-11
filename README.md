@@ -1,3 +1,4 @@
+<center><img src="logo.png" alt="AuDocGen Logo" width="200"/></center>
 [![Build Status](https://travis-ci.com/username/repo.svg?branch=main)](https://travis-ci.com/username/repo)
 [![codecov](https://codecov.io/gh/username/repo/branch/main/graph/badge.svg)](https://codecov.io/gh/username/repo)
 [![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://badge.fury.io/py/your-package-name)
@@ -5,9 +6,6 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/your-package-name.svg)](https://pypi.org/project/your-package-name/)
 [![Downloads](https://pepy.tech/badge/your-package-name)](https://pepy.tech/project/your-package-name)
 [![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
-
-
-[![AuDocGen Logo](https://raw.githubusercontent.com/sambitpoddar/audocgen/main/logo.png)](https://github.com/sambitpoddar/audocgen/)
 
 # AuDocGen
 
