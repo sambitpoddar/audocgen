@@ -6,6 +6,11 @@
 [![Python Versions](https://img.shields.io/pypi/pyversions/your-package-name.svg)](https://pypi.org/project/your-package-name/)
 [![Downloads](https://pepy.tech/badge/your-package-name)](https://pepy.tech/project/your-package-name)
 [![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![Code Quality](https://api.codacy.com/project/badge/Grade/your-project-id)](https://www.codacy.com/manual/your-username/your-repo?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=your-username/your-repo&amp;utm_campaign=Badge_Grade)
+[![Documentation Status](https://readthedocs.org/projects/your-repo/badge/?version=latest)](https://your-repo.readthedocs.io/en/latest/?badge=latest)
+[![Dependency Status](https://img.shields.io/librariesio/github/your-username/your-repo)](https://libraries.io/github/your-username/your-repo)
+[![Release Version](https://img.shields.io/github/v/release/your-username/your-repo)](https://github.com/your-username/your-repo/releases)
+
 <center><img src="logo.png" alt="AuDocGen Logo" width="280"/></center>
 
 # AuDocGen
