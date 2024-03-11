@@ -18,7 +18,7 @@ You can install AuDocGen using pip:
 pip install audocgen
 ```
 
-For more detailed installation instructions and troubleshooting, refer to the [installation guide](docs/installation.md).
+For more detailed installation instructions and troubleshooting, refer to the [Installation Guide](docs/installation.md).
 
 ## Usage
 
@@ -46,7 +46,7 @@ autodoc = AuDocGen(
 autodoc.generate_docs(output_format="html")
 ```
 
-For more detailed usage examples and advanced scenarios, refer to the [usage guide](docs/usage.md).
+For more detailed usage examples and advanced scenarios, refer to the [Usage Guide](docs/usage.md).
 
 ## Customization Options
 
@@ -64,7 +64,7 @@ AuDocGen provides the following customization options:
 
 - **`include_classes`**: Flag to include classes in the generated documentation. Default is True.
 
-For more detailed information on customization options and their usage, refer to the [customization guide](docs/customization.md).
+For more detailed information on customization options and their usage, refer to the [Customization Guide](docs/customization.md).
 
 ## Documentation Format
 
@@ -74,7 +74,7 @@ AuDocGen supports two output formats for generated documentation:
 
 - **Markdown**: Renders the documentation in Markdown format.
 
-For more information on the documentation format and how to choose the appropriate format for your needs, refer to the [documentation format guide](docs/docuformatguide.md).
+For more information on the documentation format and how to choose the appropriate format for your needs, refer to the [Documentation Format Guide](docs/docuformatguide.md).
 
 ## Author
 
@@ -83,7 +83,7 @@ For more information on the documentation format and how to choose the appropria
 
 ## Contributing
 
-Contributions to AuDocGen are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request on the [GitHub repository](https://github.com/sambitpoddar/audocgen/audocgen/issues).
+Contributions to AuDocGen are welcome! If you find any issues or have suggestions for improvement, please [open an issue](https://github.com/sambitpoddar/audocgen/issues) or submit a pull request on the [GitHub repository](https://github.com/sambitpoddar/audocgen).
 
 For guidelines on contributing to AuDocGen and how to get started, refer to the [contributing guide](CONTRIBUTING.md).
 
