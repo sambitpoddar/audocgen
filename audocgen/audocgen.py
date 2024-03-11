@@ -4,9 +4,12 @@
 
 import inspect
 import os
+import ast
 import markdown2
 from jinja2 import Environment, FileSystemLoader
 from typing import List, Union
+from .code_parser import CodeParser
+
 
 class AuDocGen:
     """
