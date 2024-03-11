@@ -1,4 +1,4 @@
-<center><img src="assets/audocgenlogo.png" alt="AuDocGen Logo" width="300"/></center>
+<center><img src="https://github.com/sambitpoddar/audocgen/blob/main/assets/audocgenlogo.png" alt="AuDocGen Logo" width="300"/></center>
 
 # AuDocGen
 
