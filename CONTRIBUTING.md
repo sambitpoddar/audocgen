@@ -15,11 +15,11 @@ You can contribute to AuDocGen in various ways, including but not limited to:
 
 ## Reporting Bugs and Issues
 
-If you encounter a bug or issue while using AuDocGen, please search the [issue tracker](https://github.com/your_username/audocgen/issues) to see if it has already been reported. If not, open a new issue with a clear description of the problem, including steps to reproduce it and any relevant error messages or screenshots.
+If you encounter a bug or issue while using AuDocGen, please search the [issue tracker](https://github.com/sambitpoddar/audocgen/issues) to see if it has already been reported. If not, open a new issue with a clear description of the problem, including steps to reproduce it and any relevant error messages or screenshots.
 
 ## Requesting Features or Enhancements
 
-If you have an idea for a new feature or enhancement that would improve AuDocGen, please open a new issue on the [issue tracker](https://github.com/your_username/audocgen/issues) and provide a detailed description of your proposal. Be sure to explain the problem you're trying to solve and how your proposed solution would address it.
+If you have an idea for a new feature or enhancement that would improve AuDocGen, please open a new issue on the [issue tracker](https://github.com/sambitpoddar/audocgen/issues) and provide a detailed description of your proposal. Be sure to explain the problem you're trying to solve and how your proposed solution would address it.
 
 ## Writing Code Improvements or Bug Fixes
 
@@ -34,7 +34,7 @@ To contribute code improvements or bug fixes to AuDocGen, follow these steps:
 
 ## Improving Documentation
 
-Documentation improvements are always welcome! If you notice any errors or omissions in the documentation, or if you have ideas for improving clarity or organization, please open an issue or pull request on the [GitHub repository](https://github.com/sambitpoddar/audocgen).
+Documentation improvements are always welcome! If you notice any errors or omissions in the documentation, or if you have ideas for improving clarity or organization, please open an issue or pull request on the [GitHub repository](https://github.com/sambitpoddar/audocgen/issues).
 
 ## Providing Feedback and Suggestions
 
