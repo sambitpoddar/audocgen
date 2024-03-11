@@ -1,3 +1,8 @@
+[![Build Status](https://travis-ci.com/username/repo.svg?branch=main)](https://travis-ci.com/username/repo)
+[![codecov](https://codecov.io/gh/username/repo/branch/main/graph/badge.svg)](https://codecov.io/gh/username/repo)
+[![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://badge.fury.io/py/your-package-name)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 <center><img src="https://github.com/sambitpoddar/audocgen/blob/main/assets/audocgenlogo.png" alt="AuDocGen Logo" width="300"/></center>
 
 # AuDocGen
