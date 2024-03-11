@@ -4,8 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python Versions](https://img.shields.io/pypi/pyversions/your-package-name.svg)](https://pypi.org/project/your-package-name/)
 [![Downloads](https://pepy.tech/badge/your-package-name)](https://pepy.tech/project/your-package-name)
-[![GitHub issues](https://img.shields.io/github/issues/username/repo.svg)](https://github.com/sambitpoddar/audocgen/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/username/repo.svg)](https://github.com/sambitpoddar/audocgen/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/sambitpoddar/repo.svg)](https://github.com/sambitpoddar/audocgen/issues)
 [![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 
 
