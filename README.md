@@ -1,12 +1,11 @@
-
-[![Last commit](https://img.shields.io/github/last-commit/sambitpoddar/audocgen)](https://github.com/your-username/your-repo-name/commits/main)
-[![Code Size](https://img.shields.io/github/languages/code-size/your-username/your-repo-name)](https://github.com/your-username/your-repo-name)
+[![Last commit](https://img.shields.io/github/last-commit/sambitpoddar/audocgen)](https://github.com/sambitpoddar/audocgen/commits/main)
+[![Code Size](https://img.shields.io/github/languages/code-size/sambitpoddar/audocgen)](https://github.com/sambitpoddar/audocgen)
 [![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://badge.fury.io/py/your-package-name)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python3.11](https://img.shields.io/badge/Python-3.11-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) 
-[![Downloads](https://pepy.tech/badge/your-package-name)](https://pepy.tech/project/your-package-name)
+[![Downloads](https://pepy.tech/badge/audocgen)](https://pepy.tech/project/audocgen)
 [![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
-[![Documentation Status](https://readthedocs.org/projects/your-repo/badge/?version=latest)](https://your-repo.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/audocgen/badge/?version=latest)](https://audocgen.readthedocs.io/en/latest/?badge=latest)
 
 <center><img src="logo.png" alt="AuDocGen Logo" width="280"/></center>
 
