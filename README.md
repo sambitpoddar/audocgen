@@ -1,5 +1,5 @@
 
-[![Last commit](https://img.shields.io/github/last-commit/your-username/your-repo-name)](https://github.com/your-username/your-repo-name/commits/main)
+[![Last commit](https://img.shields.io/github/last-commit/sambitpoddar/audocgen)](https://github.com/your-username/your-repo-name/commits/main)
 [![Code Size](https://img.shields.io/github/languages/code-size/your-username/your-repo-name)](https://github.com/your-username/your-repo-name)
 [![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://badge.fury.io/py/your-package-name)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
