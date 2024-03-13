@@ -3,7 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://badge.fury.io/py/your-package-name)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Python3.11](https://img.shields.io/badge/Python-3.11-green.svg?style=flat-square)](https://www.python.org/downloads/release/python-2714/) 
-[![Downloads](https://pepy.tech/badge/your-package-nane)](https://pepy.tech/project/your-package-name)
+[![Downloads](https://pepy.tech/badge/your-package-name)](https://pepy.tech/project/your-package-name)
 [![Code style: PEP 8](https://img.shields.io/badge/code%20style-PEP8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
 [![Documentation Status](https://readthedocs.org/projects/audocgen/badge/?version=latest)](https://audocgen.readthedocs.io/en/latest/?badge=latest)
 
